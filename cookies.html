@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cookies</title>
+</head>
+<body>
+<h1>Ejercicio de cookies</h1>
+<h2>Configuración</h2>
+<form id="cookieForm">
+    <label for="language">Idioma:</label>
+    <input type="text" id="language" name="language"><br>
+    <label for="theme">Tema:</label>
+    <input type="text" id="theme" name="theme"><br>
+    <label for="username">Usuario:</label>
+    <input type="text" id="username" name="username"><br>
+    <fieldset>
+        <legend>Preferencia:</legend>
+        <input type="radio" id="alta" name="preference" value="alta">
+        <label for="alta">Alta</label>
+        <input type="radio" id="media" name="preference" value="media">
+        <label for="media">Media</label>
+        <input type="radio" id="baja" name="preference" value="baja">
+        <label for="baja">Baja</label>
+    </fieldset>
+    <label for="dateUser">Fecha:</label>
+    <input type="datetime-local" id="dateUser" name="dateUser"><br>
+
+    <input type="submit" value="Guardar">
+</form>
+<button id="deleteCookies">Borrar cookies</button>
+<div id="cookiesDisplay"></div>
+<script src="./cookies.js"></script>
+</body>
+<footer>
+    <p>Pedro Seoane Prado</p>
+</footer>
+</html>
